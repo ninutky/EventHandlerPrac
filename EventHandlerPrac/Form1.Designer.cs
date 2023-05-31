@@ -44,9 +44,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(10, 173);
+            this.button2.Location = new System.Drawing.Point(10, 161);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(293, 140);
+            this.button2.Size = new System.Drawing.Size(293, 152);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,6 +61,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
 
         }
